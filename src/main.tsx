@@ -4,7 +4,10 @@ import "./index.css";
 import App from "./App.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <div className="bg-stone-100 font-Inter text-stone-950">
+    <StrictMode>
+      <App />
+    </StrictMode>
+    ,
+  </div>,
 );

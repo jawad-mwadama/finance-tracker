@@ -3,7 +3,7 @@ import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   return (
-    <main className="grid grid-cols-[220px,1fr] gap-4 bg-stone-100 p-4 font-Inter text-stone-950">
+    <main className="grid h-screen grid-cols-[220px_1fr] gap-4 p-4">
       <SideBar />
       <Dashboard />
     </main>
