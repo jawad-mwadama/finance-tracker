@@ -8,7 +8,7 @@ function SideBar() {
     <div>
       <div>
         {/* main sidebar content */}
-        <div className="sticky top-4 h-[calc(100vh-32px-48px)] overflow-y-scroll">
+        <div className="sticky top-4 h-[calc(100vh-32px-48px)]">
           <AccountToggle />
           <Search />
           <RouteSelect />
