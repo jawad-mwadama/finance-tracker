@@ -1,9 +1,9 @@
-import AccountOperations from "../Features/Accounts/AccountOperations";
+import AccountOperations from "../../Features/Accounts/AccountOperations";
 import HomeText from "./HomeText";
 
-function Grid() {
+function DashBoardLayout() {
   return (
-    <div className="grid grid-cols-12 gap-3 px-4">
+    <div>
       {/* <h2 className="col-span-6 p-2 font-medium">Your Account Operations</h2> */}
       <HomeText />
       <AccountOperations />
@@ -11,4 +11,4 @@ function Grid() {
   );
 }
 
-export default Grid;
+export default DashBoardLayout;

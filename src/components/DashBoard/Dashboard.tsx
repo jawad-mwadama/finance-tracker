@@ -1,4 +1,4 @@
-import Grid from "./Grid";
+import Grid from "./DashBoardLayout";
 import TopNav from "./TopNav";
 
 function Dashboard() {
