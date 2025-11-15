@@ -1,4 +1,4 @@
-import { createStore } from "@reduxjs/toolkit";
+/*import { createStore } from "@reduxjs/toolkit";
 
 const initialState = {
   balance: 0,
@@ -40,4 +40,11 @@ const store = createStore(reducer);
 
 store.dispatch({ type: "account/deposit", payload: 500 });
 
-console.log(store);
+*/
+
+import { configureStore } from "@reduxjs/toolkit";
+import customerSlice from "./Features/Customer/CustomerSlice";
+
+export const store = configureStore({
+  reducer: { customer: customerSlice },
+});
