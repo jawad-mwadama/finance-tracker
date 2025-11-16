@@ -23,7 +23,5 @@ const accountSlice = createSlice({
   },
 });
 
-console.log("hey accountSlice");
-
 export const { deposit } = accountSlice.actions;
 export default accountSlice.reducer;
