@@ -44,9 +44,10 @@ store.dispatch({ type: "account/deposit", payload: 500 });
 
 import { configureStore } from "@reduxjs/toolkit";
 import customerSlice from "./Features/Customer/CustomerSlice";
+import accountSlice from "./Features/Accounts/AccountSlice";
 
 export const store = configureStore({
-  reducer: { customer: customerSlice },
+  reducer: { customer: customerSlice, account: accountSlice },
 });
 
 // Types for ts
