@@ -1,5 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// interface CustomerSlice {
+//   username: string;
+// }
 const initialState = {
   username: "",
 };
@@ -13,6 +16,8 @@ const customerSlice = createSlice({
     },
   },
 });
+
+console.log("hey reduxx ");
 
 export const { UpdateName } = customerSlice.actions;
 

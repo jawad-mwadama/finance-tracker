@@ -48,3 +48,7 @@ import customerSlice from "./Features/Customer/CustomerSlice";
 export const store = configureStore({
   reducer: { customer: customerSlice },
 });
+
+// Types for ts
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
