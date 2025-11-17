@@ -20,6 +20,14 @@ const accountSlice = createSlice({
     deposit(state, action: PayloadAction<number>) {
       state.balance += action.payload;
     },
+    withdraw(state, action: PayloadAction<number>) {
+      state.balance -= action.payload;
+    },
+    // requestLoan(state, action: PayloadAction<number>) {
+    //   if (state > 0) return state;
+    //   // later
+    //   state,;
+    // },
   },
 });
 
