@@ -42,7 +42,7 @@ function DepositInput() {
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-4 rounded bg-stone-100 p-4">
+    <div className="flex flex-[1_1_280px] flex-wrap items-center gap-4 overflow-hidden rounded bg-stone-100 p-4">
       <h2 className="w-full text-2xl font-semibold">Deposit</h2>
       <label>Deposit</label>
       <input
@@ -179,3 +179,5 @@ function PayLoan() {
 }
 
 export default AccountOperations;
+
+// flex flex-wrap items-center gap-4 overflow-hidden rounded bg-stone-100 p-4
